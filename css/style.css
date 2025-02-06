@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat';
+    margin: auto;
+    height: 100%;
+}
+
+.nav-menu-item{
+    display: block;
+    font-size: 16px;
+    font-size: 400;
+    text-align: center;
+    width: 140px;
+    text-decoration: none;
+    color: black;
+    transform: scale(1);
+    transition: transform 0.2s linear;
+}
+
+.nav-menu-item:hover{
+    transform: scale(1.3);
+}
+
+.nav-menu{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    width: 689px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-count{
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-size: 400;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-shop{
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+    align-items: flex-end;
+    transform: scale(1);
+    transition: transform 0.2s linear;
+}
+
+.nav-shop:hover{
+    transform: scale(1.3);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    margin: auto;
+}
+
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero{
+    background-image: url('../img/header.png');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 83px;
+}
+
+.hero a{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 0.2s linear;
+}
+
+.hero a:hover{
+    transform: scale(1.3);
+}
+
+.hero-container{
+    width: 1180px;
+    margin: auto;
+    padding-top: 144px;
+}
+
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.product-title{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.add-to-cart{
+    background-color: black;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+    transform: scale(1);
+    transition: transform 0.2s linear;
+}
+
+.add-to-cart:hover{
+    transform: scale(1.3);
+}
+
+.product-price-item{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product{
+    width: 280px;
+}
+
+.products{
+    display: flex;
+    width: 1180px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+footer{
+    background-color: #BDBDBD;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-top: 128px;
+}
+
+.footer-container{
+    display: flex;
+    width: 980px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-tel{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-img{
+    display: flex;
+    width: 124px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#clear-cart{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transform: scale(1);
+    transition: transform 0.2s linear;
+}
+
+#clear-cart:hover{
+    transform: scale(1.3);
+}
+
+main p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.total-block{
+    width: 1180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.cart-item{
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+}
